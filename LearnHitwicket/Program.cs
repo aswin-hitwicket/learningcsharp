@@ -4,6 +4,7 @@ using static LearnHitwicket.LearnArraysAndLoops;
 using static LearnHitwicket.AgeProgram;
 using static LearnHitwicket.EvenTableProgram;
 using static LearnHitwicket.GridPlay;
+using static LearnHitwicket.ObjectProgram;
 
 namespace Hitwicket
 {
@@ -15,7 +16,9 @@ namespace Hitwicket
             //GetAgeAndValidate();
             //GetAgeAndValidateViaSwitch();
             //LearnArray();
-            GridPlayProgram(10, 10);
+            //ListProgram();
+            //GridPlayProgram(10, 10);
+            AnimalProgram();
 
             Console.ReadKey();
         }

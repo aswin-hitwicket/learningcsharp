@@ -2,6 +2,13 @@
 {
     internal class GridPlay
     {
+        internal static void ListProgram()
+        {
+            List<string> list = new List<string>();
+            list.Add("wwwww");
+            Console.WriteLine(list.Count());
+        }
+
         internal static void GridPlayProgram(int width, int height)
         {
             int[,] grid = new int[width, height];

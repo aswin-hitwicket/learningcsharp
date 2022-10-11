@@ -6,6 +6,8 @@ using static LearnHitwicket.EvenTableProgram;
 using static LearnHitwicket.GridPlay;
 using static LearnHitwicket.ObjectProgram;
 using static LearnHitwicket.EnumProgram;
+using static LearnHitwicket.PropertiesAndInterface;
+using static LearnHitwicket.GenericsGame;
 
 namespace Hitwicket
 {
@@ -20,7 +22,9 @@ namespace Hitwicket
             //ListProgram();
             //GridPlayProgram(10, 10);
             //AnimalProgram();
-            EnumClassProgram();
+            //EnumClassProgram();
+            //PropertiesProgram();
+            GenricGameProgram();
 
             Console.ReadKey();
         }

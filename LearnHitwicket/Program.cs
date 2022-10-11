@@ -1,8 +1,9 @@
 ﻿using System;
 
-using static LearnHitwicket.LearnArrays;
+using static LearnHitwicket.LearnArraysAndLoops;
 using static LearnHitwicket.AgeProgram;
 using static LearnHitwicket.EvenTableProgram;
+using static LearnHitwicket.GridPlay;
 
 namespace Hitwicket
 {
@@ -10,11 +11,11 @@ namespace Hitwicket
     {
         public static void Main(string[] args)
         {
-            PrintEvenNumbersAsTableProgram();
-            GetAgeAndValidate();
-            GetAgeAndValidateViaSwitch();
-
-            LearnArray();
+            //PrintEvenNumbersAsTableProgram();
+            //GetAgeAndValidate();
+            //GetAgeAndValidateViaSwitch();
+            //LearnArray();
+            GridPlayProgram(10, 10);
 
             Console.ReadKey();
         }

@@ -5,6 +5,7 @@ using static LearnHitwicket.AgeProgram;
 using static LearnHitwicket.EvenTableProgram;
 using static LearnHitwicket.GridPlay;
 using static LearnHitwicket.ObjectProgram;
+using static LearnHitwicket.EnumProgram;
 
 namespace Hitwicket
 {
@@ -18,7 +19,8 @@ namespace Hitwicket
             //LearnArray();
             //ListProgram();
             //GridPlayProgram(10, 10);
-            AnimalProgram();
+            //AnimalProgram();
+            EnumClassProgram();
 
             Console.ReadKey();
         }

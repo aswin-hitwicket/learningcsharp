@@ -1,13 +1,16 @@
 ﻿namespace LearnHitwicket
 {
-    class Animal
+    class LivingBeing
     {
-        int age;
+        protected int age;
+    }
+    class Animal : LivingBeing
+    {
         string name;
 
         public Animal(int age, string name)
         {
-            this.age = age;
+            base.age = age;
             this.name = name;
         }
 

@@ -4,7 +4,7 @@ namespace Hitwicket
 {
     public class Hitwicket
     {
-        public static void Main(string[] args)
+        private static void PrintEvenNumbersAsTableProgram()
         {
             for (int i = 0; i < 100; i++)
             {
@@ -18,18 +18,14 @@ namespace Hitwicket
                 }
             }
             Console.WriteLine();
+        }
 
+        private static void GetAgeAndValidate()
+        {
             Console.Write("Your age:");
             int age = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Your age is " + age);
-
-            Random random = new Random();
-
-            var randomAdder = random.Next(1, 5);
-            Console.WriteLine(randomAdder);
-
-            age = randomAdder + age;
-            Console.WriteLine("Your random age is " + age);
 
             if (age > 18)
             {
@@ -39,15 +35,27 @@ namespace Hitwicket
             {
                 Console.WriteLine("Not Eligible!");
             }
+        }
 
+        private static void GetAgeAndValidateViaSwitch()
+        {
+            Console.Write("Your age:");
+            uint age = Convert.ToUInt32(Console.ReadLine());
+
+            Console.WriteLine("Your age is " + age);
             switch (age)
             {
                 case 0:
-                    Console.WriteLine(0);
-                    break;
-                case 1:
+                    Console.WriteLine("Invalid age! (>0)");
                     break;
             }
+        }
+
+        public static void Main(string[] args)
+        {
+            PrintEvenNumbersAsTableProgram();
+            GetAgeAndValidate();
+            GetAgeAndValidateViaSwitch();
 
             Console.ReadKey();
         }

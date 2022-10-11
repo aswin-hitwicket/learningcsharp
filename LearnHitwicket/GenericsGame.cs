@@ -1,4 +1,6 @@
-﻿namespace LearnHitwicket
+﻿using System.Collections.Generic;
+
+namespace LearnHitwicket
 {
     class Container<T>
     {
@@ -20,6 +22,16 @@
         {
             var container = new Container<uint>(0);
             Console.WriteLine(container);
+
+            Dictionary<string, string> json = new Dictionary<string, string>(10);
+
+            json.Add("hi", "value from hi");
+
+            string? output;
+
+            json.TryGetValue("hi", out output);
+
+            Console.WriteLine(output);
         }
     }
 }

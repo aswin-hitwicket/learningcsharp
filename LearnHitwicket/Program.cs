@@ -9,6 +9,9 @@ using static LearnHitwicket.EnumProgram;
 using static LearnHitwicket.PropertiesAndInterface;
 using static LearnHitwicket.GenericsGame;
 
+using static LearnHitwicket.Euler.MultiplesOf3Or5;
+using static LearnHitwicket.Euler.EvenFibonacciNumbers;
+
 namespace Hitwicket
 {
     public class Hitwicket
@@ -24,7 +27,10 @@ namespace Hitwicket
             //AnimalProgram();
             //EnumClassProgram();
             //PropertiesProgram();
-            GenricGameProgram();
+            //GenricGameProgram();
+            //MainProgram();
+            //MainMultiplesOf3Or5();
+            MainEvenFibonacciNumbers();
 
             Console.ReadKey();
         }

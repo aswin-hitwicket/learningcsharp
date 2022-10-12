@@ -11,6 +11,10 @@ using static LearnHitwicket.GenericsGame;
 
 using static LearnHitwicket.Euler.MultiplesOf3Or5;
 using static LearnHitwicket.Euler.EvenFibonacciNumbers;
+using static LearnHitwicket.Euler.LargestPrimeFactor;
+using static LearnHitwicket.Euler.SpecialPythagoreanTriplet;
+using static LearnHitwicket.Euler.LargestProductInAGrid;
+using static LearnHitwicket.Euler.LargeSum;
 
 namespace Hitwicket
 {
@@ -30,7 +34,11 @@ namespace Hitwicket
             //GenricGameProgram();
             //MainProgram();
             //MainMultiplesOf3Or5();
-            MainEvenFibonacciNumbers();
+            //MainEvenFibonacciNumbers();
+            //LargestPrimeFactorProgram();
+            //SpecialPythagoreanTripletMain();
+            //LargestProductInAGridProgram();
+            LargeSumProgram();
 
             Console.ReadKey();
         }

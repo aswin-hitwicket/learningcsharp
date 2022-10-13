@@ -1,5 +1,4 @@
 ﻿using System;
-
 using static LearnHitwicket.LearnArraysAndLoops;
 using static LearnHitwicket.AgeProgram;
 using static LearnHitwicket.EvenTableProgram;
@@ -8,13 +7,13 @@ using static LearnHitwicket.ObjectProgram;
 using static LearnHitwicket.EnumProgram;
 using static LearnHitwicket.PropertiesAndInterface;
 using static LearnHitwicket.GenericsGame;
-
 using static LearnHitwicket.Euler.MultiplesOf3Or5;
 using static LearnHitwicket.Euler.EvenFibonacciNumbers;
 using static LearnHitwicket.Euler.LargestPrimeFactor;
 using static LearnHitwicket.Euler.SpecialPythagoreanTriplet;
 using static LearnHitwicket.Euler.LargestProductInAGrid;
 using static LearnHitwicket.Euler.LargeSum;
+using static LearnHitwicket.Euler.PowerDigitSum;
 
 namespace Hitwicket
 {
@@ -38,8 +37,8 @@ namespace Hitwicket
             //LargestPrimeFactorProgram();
             //SpecialPythagoreanTripletMain();
             //LargestProductInAGridProgram();
-            LargeSumProgram();
-
+//            LargeSumProgram();
+            PowerDigitSumProgram();
             Console.ReadKey();
         }
     }

@@ -14,6 +14,7 @@ using static LearnHitwicket.Euler.SpecialPythagoreanTriplet;
 using static LearnHitwicket.Euler.LargestProductInAGrid;
 using static LearnHitwicket.Euler.LargeSum;
 using static LearnHitwicket.Euler.PowerDigitSum;
+using static LearnHitwicket.Euler.NumberLetterCounts;
 
 namespace Hitwicket
 {
@@ -37,8 +38,9 @@ namespace Hitwicket
             //LargestPrimeFactorProgram();
             //SpecialPythagoreanTripletMain();
             //LargestProductInAGridProgram();
-//            LargeSumProgram();
-            PowerDigitSumProgram();
+            //LargeSumProgram();
+            //PowerDigitSumProgram();
+            NumberLetterCountsProgram();
             Console.ReadKey();
         }
     }

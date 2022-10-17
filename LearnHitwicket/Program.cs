@@ -15,6 +15,9 @@ using static LearnHitwicket.Euler.LargestProductInAGrid;
 using static LearnHitwicket.Euler.LargeSum;
 using static LearnHitwicket.Euler.PowerDigitSum;
 using static LearnHitwicket.Euler.NumberLetterCounts;
+using static LearnHitwicket.Euler.SelfPower;
+using static LearnHitwicket.Euler.AmicableNumbers;
+using LearnHitwicket.Euler;
 
 namespace Hitwicket
 {
@@ -40,7 +43,9 @@ namespace Hitwicket
             //LargestProductInAGridProgram();
             //LargeSumProgram();
             //PowerDigitSumProgram();
-            NumberLetterCountsProgram();
+            //NumberLetterCountsProgram();
+            //SelfPowerMain();
+            AmicableNumbersMain();
             Console.ReadKey();
         }
     }
